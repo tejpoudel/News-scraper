@@ -1,7 +1,7 @@
 {
-  "name": "News-scraper",
+  "name": "newsscraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Live App: https://mongoose-hwassignment.herokuapp.com",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,22 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tejpoudel/News-scraper.git"
+    "url": "git+https://github.com/Ghostmouth/newsscraper.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tejpoudel/News-scraper/issues"
+    "url": "https://github.com/Ghostmouth/newsscraper/issues"
   },
-  "homepage": "https://github.com/tejpoudel/News-scraper#readme",
+  "homepage": "https://github.com/Ghostmouth/newsscraper#readme",
   "dependencies": {
-    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
     "mongoose": "^5.4.11",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0"
   }
 }
